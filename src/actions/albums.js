@@ -12,11 +12,11 @@ export function addAlbum(id, title) {
 
 export const SET_ALBUMS = 'SET_ALBUMS'
 
-export function setAlbum(albums) {
+export function setAlbums(albums) {
     return {
         type: SET_ALBUMS,
-        payload: [
-          albums
-        ]
+        payload: 
+         albums
+        
     }
 }
